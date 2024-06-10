@@ -38,6 +38,11 @@ html {
     color: var(--white)
 }
 
+h1 {
+    font-size: clamp(2rem, 4.5vw, 4rem);
+    font-family: var(--font-2);
+}
+
 .feather {
     width: 1.5rem;
     height: 1.5rem;
@@ -59,6 +64,18 @@ html {
     cursor: pointer;
 }
 
+.cta {
+    background-color: #044BD9;
+    width: fit-content;
+    padding: 1rem 2rem;
+    font-family: var(--font-2);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--white);
+}
+
 #app {
     display: flex;
     flex-direction: column;
@@ -67,4 +84,24 @@ html {
 
 #main {
     flex: 1;
+}
+
+#hero {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom center;
+    z-index: -1;
+}
+
+#hero::after {
+    position: absolute;
+    content: "";
+    background-color: var(--black);
+    width: 100%;
+    height: 100%;
+    opacity: .42;
+    z-index: -1;
 }
