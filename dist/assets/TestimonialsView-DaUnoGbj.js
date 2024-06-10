@@ -1,0 +1,1 @@
+import{_ as e,c as s,o,a as t}from"./index-QssWvRpi.js";const n={},c={id:"main"},a=t("h1",null,"Testimonials",-1),_=[a];function i(r,d){return o(),s("main",c,_)}const m=e(n,[["render",i]]);export{m as default};
