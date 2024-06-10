@@ -4,7 +4,8 @@
 
 <template>
   <div class="logo">
-    <img src="/logo-64-64.png" alt="Rock and Roll Services" />
+    <router-link to="/" title="Home"></router-link>
+    <img src="/logo-128-128.png" alt="Rock and Roll Services" />
   </div>
 </template>
 

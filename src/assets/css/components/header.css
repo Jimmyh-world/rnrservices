@@ -1,3 +1,47 @@
 #header {
+    display: flex;
+    align-items: center;
+    gap: clamp(1rem, 4.5vw, 2rem);
+    padding: clamp(1rem, 4.5vw, 2rem);
+    justify-content: space-between;
+}
 
+#header .logo {
+    width: 4rem;
+}
+
+.navigation {
+    display: none;
+    gap: clamp(1rem, 4.5vw, 2rem);
+}
+
+.navigation-link {
+    text-decoration: none;
+    display: inline-flex;
+    min-width: 3rem;
+    min-height: 3rem;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navigation-link[aria-current="page"] {
+    color: var(--blue);
+}
+
+@media (min-width: 768px) {
+    #header {
+        justify-content: start;
+    }
+    #header .logo {
+        width: 8rem;
+    }
+    #menuButton {
+        display: none !important;
+    }
+    .navigation {
+        display: inline-flex !important;
+    }
 }
