@@ -14,6 +14,8 @@
 }
 
 #header .logo {
+    width: 4rem;
+    height: 4rem;
     margin: auto;
     grid-area: logo;
 }
@@ -57,10 +59,16 @@
 
 @media (min-width: 600px) {
     #header {
+        gap: 1rem;
         grid-template-columns: auto 1fr auto;
         grid-template-rows: repeat(2, auto);
         grid-template-areas:
             '. logo .'
             'mail nav lang';
+    }
+
+    #header .logo {
+        width: 8rem;
+        height: 8rem;
     }
 }
