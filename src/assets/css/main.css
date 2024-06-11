@@ -15,65 +15,69 @@
          format("truetype-variations");
 }
 
-:root {
-    --black: #0B0B0D;
-    --white: #f2f2f2;
-    --blue: #0583F2;
-    --green: #00843D;
-    --yellow: #ffcd00;
-    --font-1: "Open Sans";
-    --font-2: "Copperplate Gothic Bold";
-}
-
 *,
 *::after,
 *::before {
     margin: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", serif;
 }
 
 html {
-    font-family: var(--font-1), serif;
-    background-color: var(--black);
-    color: var(--white)
+    scroll-behavior: smooth;
 }
 
-h1 {
-    font-size: clamp(2rem, 4.5vw, 4rem);
-    font-family: var(--font-2);
+img {
+    display: block;
+    width: 100%;
 }
 
 .feather {
     width: 1.5rem;
     height: 1.5rem;
     fill: none;
-    stroke: var(--white);
+    stroke: #fff;
     stroke-width: 2;
     stroke-linecap: round;
     stroke-linejoin: round;
+    transition: stroke 100ms linear;
 }
 
-.button {
+.button,
+.cta {
     display: inline-flex;
-    align-items: center;
-    justify-content: center;
     min-width: 3rem;
     min-height: 3rem;
-    border: 0;
-    background-color: transparent;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
 }
 
 .cta {
-    background-color: #044BD9;
-    width: fit-content;
-    padding: 1rem 2rem;
-    font-family: var(--font-2);
-    letter-spacing: 1px;
+    background-color: #FFCD00;
+    padding: 1em 2em;
+    font-weight: 800;
+    color: #040415;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: bold;
-    color: var(--white);
+    font-size: clamp(1rem, 4.5vw, 1.25rem);
+    transition: background-color 100ms linear;
+}
+
+.cta:hover,
+.cta:focus-within {
+    background-color: white;
+}
+
+.button:hover .feather,
+.button:focus-within .feather {
+    stroke: #FFCD00;
+}
+
+.section-title {
+    font-size: clamp(2rem, 4.5vw, 3rem);
+    font-weight: 800;
 }
 
 #app {
@@ -86,22 +90,197 @@ h1 {
     flex: 1;
 }
 
+#landing {
+    position: relative;
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#landing section {
+    max-width: 46rem;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+#landing section h1 {
+    font-size: clamp(2rem, 4.5vw, 4rem);
+    font-family: "Copperplate Gothic Bold", serif;
+}
+
+#landing section p {
+    margin-block: 1rem;
+    font-weight: bold;
+    font-size: clamp(1rem, 4.5vw, 1.25rem);
+}
+
 #hero {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    z-index: -1;
+}
+
+#hero::before {
+    content: "";
     position: absolute;
     inset: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    background-color: #040415;
+    opacity: .32;
+}
+
+#hero img {
+    height: 100%;
+    width: 100%;
     object-position: bottom center;
+    object-fit: cover;
     z-index: -1;
 }
 
-#hero::after {
-    position: absolute;
-    content: "";
-    background-color: var(--black);
+#testimonials ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+}
+
+.testimonial {
+    flex: 1;
+    padding: clamp(1rem, 4.5vw, 2rem);
+    background-color: #FFCD00;
+}
+
+.testimonial h2 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial p::before {
+    content: "- ";
+}
+
+.testimonial:nth-child(even) {
+    background-color: #302EBA;
+}
+
+.testimonial:nth-child(3n) {
+    background-color: #0B0B2D;
+}
+
+.testimonial:nth-child(even),
+.testimonial:nth-child(3n) {
+    color: #fff;
+}
+
+#services {
+    padding: clamp(1rem, 4.5vw, 2rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: #040415;
+}
+
+#services ul {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: auto;
+    width: 100%;
+    gap: clamp(1rem, 4.5vw, 2rem);
+}
+
+.service {
+    background-color: #302EBA;
+    color: #fff;
+}
+
+.service figure {
+    aspect-ratio: 16 / 9;
+}
+
+.service figure img {
     width: 100%;
     height: 100%;
-    opacity: .42;
-    z-index: -1;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.service section {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(1rem, 4.5vw, 2rem);
+    padding: clamp(1rem, 4.5vw, 2rem);
+}
+
+.service section h3 {
+    font-size: clamp(1.5rem, 4.5vw, 2rem);
+}
+
+#contact {
+    background-color: #FFCD00;
+    padding: clamp(1rem, 4.5vw, 2rem);
+    display: flex;
+    flex-direction: column;
+    gap: clamp(1rem, 4.5vw, 2rem);
+    align-items: center;
+    justify-content: center;
+}
+
+#contact section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    max-width: 46rem;
+    margin: auto;
+}
+
+#contact section p {
+    font-size: clamp(1rem, 4.5vw, 1.25rem);
+}
+
+#contact address nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.address-link {
+    display: inline-flex;
+    min-height: 3rem;
+    min-width: 3rem;
+    align-content: center;
+    justify-content: center;
+    gap: .5em;
+    font-size: clamp(1rem, 4.5vw, 1.25rem);
+    color: #040415;
+    transition: color 100ms linear;
+}
+
+.address-link .feather {
+    stroke: #040415;
+    transition: stroke 100ms linear;
+}
+
+.address-link:hover,
+.address-link:focus-within {
+    color: #302EBA;
+}
+
+.address-link:hover .feather,
+.address-link:focus-within .feather {
+    stroke: #302EBA;
 }

@@ -1,21 +1,28 @@
 <script setup>
 import '@/assets/css/components/header.css';
+import Mail from "@/components/icons/Mail.vue";
+import Globe from "@/components/icons/Globe.vue";
 import Logo from "@/components/Logo.vue";
-import Menu from "@/components/icons/Menu.vue";
 </script>
 
 <template>
   <header id="header">
-    <Logo />
-    <button id="menuButton" class="button">
-      <Menu />
-    </button>
-    <nav class="navigation">
-      <router-link class="navigation-link" to="/" title="Home">Home</router-link>
-      <router-link class="navigation-link" to="/services" title="Services">Services</router-link>
-      <router-link class="navigation-link" to="/testimonials" title="Testimonials">Testimonials</router-link>
-      <router-link class="navigation-link" to="/gallery" title="Gallery">Gallery</router-link>
-      <router-link class="navigation-link" to="/contact" title="Gallery">Contact</router-link>
-    </nav>
+    <div>
+      <Logo />
+    </div>
+    <div>
+      <a class="button" href="mailto:#" title="Mail">
+        <Mail />
+      </a>
+      <nav class="navigation">
+        <a href="#landing" title="Home">Home</a>
+        <a href="#services" title="Services">Services</a>
+        <a href="#testimonials" title="Testimonials">Testimonials</a>
+        <a href="#contact" title="Contact">Contact</a>
+      </nav>
+      <a class="button" href="mailto:#" title="Mail">
+        <Globe />
+      </a>
+    </div>
   </header>
 </template>
