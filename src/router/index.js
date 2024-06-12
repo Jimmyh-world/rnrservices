@@ -18,4 +18,13 @@ const router = createRouter({
   ]
 });
 
+router.beforeEach((to, from, next) => {
+  const preferredLang = localStorage.getItem('preferred-language');
+  if (!preferredLang) {
+    next();
+  }
+  document.documentElement.lang = preferredLang;
+  next();
+});
+
 export default router;

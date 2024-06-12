@@ -2,6 +2,44 @@
 
 import Mail from "@/components/icons/Mail.vue";
 import Phone from "@/components/icons/Phone.vue";
+import Text from "@/assets/js/text.js";
+
+const testimonials = [
+  {
+    text: Text("Amazing experience! The concert was fantastic and well-organized.", "Fantastisk upplevelse! Konserten var fantastisk och välorganiserad."),
+    author: 'John Doe'
+  },
+  {
+    text: Text("Amazing experience! The concert was fantastic and well-organized.", "Fantastisk upplevelse! Konserten var fantastisk och välorganiserad."),
+    author: 'John Doe'
+  },
+  {
+    text: Text("Amazing experience! The concert was fantastic and well-organized.", "Fantastisk upplevelse! Konserten var fantastisk och välorganiserad."),
+    author: 'John Doe'
+  }
+];
+
+const services = [
+  {
+    imgSrc: "/stage.png",
+    imgAlt: Text('Thousands of hands during a concert.', 'Tusentals händer under en konsert.'),
+    title: Text('Live concerts', 'Live konserter'),
+    description: Text('Experience the best live performances with top-notch sound and lighting.', 'Upplev de bästa liveframträdandena med förstklassigt ljud och belysning.')
+  },
+  {
+    imgSrc: "/walking-hands.png",
+    imgAlt: Text('People holding hands with their partner during a festival.', 'Människor håller sina partner i handen under en festival.'),
+    title: Text('Music festivals', 'Musikfestivaler'),
+    description: Text('Join us for unforgettable music festivals featuring top artists and bands.', 'Följ med oss på oförglömliga musikfestivaler med toppartister och band.')
+  },
+  {
+    imgSrc: "/security.png",
+    imgAlt: Text('Security guards in the rain.', 'Säkerhetsvakter i regnet.'),
+    title: Text('Event planning', 'Evenemangsplanering'),
+    description: Text('Let us help you plan the perfect music event with our professional services.', 'Låt oss hjälpa dig att planera det perfekta musikevenemanget med våra professionella tjänster.')
+  }
+];
+
 </script>
 
 <template>
@@ -11,62 +49,32 @@ import Phone from "@/components/icons/Phone.vue";
         <img src="/hand-in-air.jpg" alt="Hundreds of hands in the air during a concert!" />
       </figure>
       <section>
-        <h1>Unleash the Power of Music</h1>
+        <h1>{{ Text('Unleash the Power of Music', 'Frigör Musikens Kraft') }}</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <a class="cta" href="#contact" title="Contact">Contact</a>
+        <a class="cta" href="#contact" :title="Text('Contact', 'Kontakt')">{{ Text('Contact', 'Kontakt') }}</a>
       </section>
     </div>
     <div id="testimonials">
       <ul>
-        <li class="testimonial">
-          <h2>“Amazing experience! The concert was fantastic and well-organized.”</h2>
-          <p>John Doe</p>
-        </li>
-        <li class="testimonial">
-          <h2>“Amazing experience! The concert was fantastic and well-organized.”</h2>
-          <p>John Doe</p>
-        </li>
-        <li class="testimonial">
-          <h2>“Amazing experience! The concert was fantastic and well-organized.”</h2>
-          <p>John Doe</p>
+        <li v-for="testimonial of testimonials" class="testimonial">
+          <h2>{{ testimonial.text }}</h2>
+          <p>{{ testimonial.author }}</p>
         </li>
       </ul>
     </div>
     <div id="services">
       <section>
-        <h2 class="section-title">Services</h2>
+        <h2 class="section-title">{{ Text("Services", "Service") }}</h2>
       </section>
       <ul>
-        <li>
+        <li v-for="service of services">
           <article class="service">
             <figure>
-              <img src="/stage.png" alt="Fireworks during a live concert." />
+              <img :src="`${service.imgSrc}`" :alt="service.imgAlt" />
             </figure>
             <section>
-              <h3>Live Concerts</h3>
-              <p>Experience the best live performances with top-notch sound and lighting.</p>
-            </section>
-          </article>
-        </li>
-        <li>
-          <article class="service">
-            <figure>
-              <img src="/walking-hands.png" alt="People holding hands with their partner during a festival" />
-            </figure>
-            <section>
-              <h3>Music Festivals</h3>
-              <p>Join us for unforgettable music festivals featuring top artists and bands.</p>
-            </section>
-          </article>
-        </li>
-        <li>
-          <article class="service">
-            <figure>
-              <img src="/security.png" alt="Security guards in the rain." />
-            </figure>
-            <section>
-              <h3>Event planning</h3>
-              <p>Let us help you plan the perfect music event with our professional services.</p>
+              <h3>{{ service.title }}</h3>
+              <p>{{ service.description }}</p>
             </section>
           </article>
         </li>
@@ -74,13 +82,13 @@ import Phone from "@/components/icons/Phone.vue";
     </div>
     <div id="contact">
       <section>
-        <h2 class="section-title">Contact</h2>
+        <h2 class="section-title">{{ Text('Contact', 'Kontakt') }}</h2>
         <p>Lorem Ipsum has been the industry's standard dummy text ever since the  1500s, when an unknown printer took a galley of type and scrambled it to  make a type specimen book.</p>
       </section>
       <address>
         <nav>
-          <a class="address-link" href="mailto:#" title="Mail"><Mail />email@outlook.com</a>
-          <a class="address-link" href="tel:#" title="Call"><Phone />+46 2045 658 444</a>
+          <a class="address-link" href="mailto:#" :title="Text('Mail', 'Mejla')"><Mail />email@outlook.com</a>
+          <a class="address-link" href="tel:#" :title="Text('Call', 'Ring')"><Phone />+46 2045 658 444</a>
         </nav>
       </address>
     </div>

@@ -289,3 +289,13 @@ img {
 .address-link:focus-within .feather {
     stroke: #302EBA;
 }
+
+#langButton {
+    background-color: transparent;
+    border: 0;
+}
+
+#langButton:active,
+#langButton:focus-within {
+    stroke: #FFCD00;
+}
