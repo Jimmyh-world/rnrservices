@@ -73,6 +73,11 @@ h6 {
     cursor: pointer;
 }
 
+.button {
+    background-color: transparent;
+    border: 0;
+}
+
 .cta {
     background-color: #FFCD00;
     padding: 1em 2em;
@@ -312,4 +317,16 @@ h6 {
 #langButton:active,
 #langButton:focus-within {
     stroke: #FFCD00;
+}
+
+@media (max-width: 701px) {
+    #header .navigation {
+        display: none !important;
+    }
+}
+
+@media (min-width: 700px) {
+    #toggleMenuButton {
+        display: none !important;
+    }
 }

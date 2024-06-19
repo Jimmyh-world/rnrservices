@@ -1,7 +1,9 @@
 .logo {
     position: relative;
-    width: 8rem;
-    height: 8rem;
+    width: 6rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo a {
