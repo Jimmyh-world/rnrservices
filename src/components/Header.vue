@@ -7,6 +7,7 @@ import Language from "@/components/Language.vue";
 import text from "@/assets/js/text.js";
 import {ref} from "vue";
 import Menu from "@/components/icons/Menu.vue";
+import MobileMenu from "@/components/MobileMenu.vue";
 
 const languageBoxShow = ref(false);
 
@@ -38,4 +39,5 @@ function toggleLanguageBox() {
     </div>
     <Language :show="languageBoxShow" />
   </header>
+  <MobileMenu />
 </template>
