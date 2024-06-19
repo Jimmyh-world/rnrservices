@@ -4,21 +4,6 @@ import Mail from "@/components/icons/Mail.vue";
 import Phone from "@/components/icons/Phone.vue";
 import Text from "@/assets/js/text.js";
 
-const testimonials = [
-  {
-    text: Text("Amazing experience! The concert was fantastic and well-organized.", "Fantastisk upplevelse! Konserten var fantastisk och välorganiserad."),
-    author: 'John Doe'
-  },
-  {
-    text: Text("Amazing experience! The concert was fantastic and well-organized.", "Fantastisk upplevelse! Konserten var fantastisk och välorganiserad."),
-    author: 'John Doe'
-  },
-  {
-    text: Text("Amazing experience! The concert was fantastic and well-organized.", "Fantastisk upplevelse! Konserten var fantastisk och välorganiserad."),
-    author: 'John Doe'
-  }
-];
-
 const services = [
   {
     imgSrc: "/stage.png",
@@ -53,14 +38,6 @@ const services = [
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         <a class="cta" href="#contact" :title="Text('Contact', 'Kontakt')">{{ Text('Contact', 'Kontakt') }}</a>
       </section>
-    </div>
-    <div id="testimonials">
-      <ul>
-        <li v-for="testimonial of testimonials" class="testimonial">
-          <h2>{{ testimonial.text }}</h2>
-          <p>{{ testimonial.author }}</p>
-        </li>
-      </ul>
     </div>
     <div id="services">
       <section>
