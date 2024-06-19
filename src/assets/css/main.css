@@ -15,6 +15,12 @@
          format("truetype-variations");
 }
 
+@font-face {
+    font-family: "Bebas Neue";
+    font-weight: 400;
+    src: local("Bebas Neue"), url("./fonts/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
+}
+
 *,
 *::after,
 *::before {
@@ -30,6 +36,19 @@ html {
 img {
     display: block;
     width: 100%;
+}
+
+h1 {
+    font-size: clamp(2rem, 4.5vw, 4rem);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .feather {
@@ -105,11 +124,6 @@ img {
     padding: 1rem;
     text-align: center;
     color: #fff;
-}
-
-#landing section h1 {
-    font-size: clamp(2rem, 4.5vw, 4rem);
-    font-family: "Copperplate Gothic Bold", serif;
 }
 
 #landing section p {
