@@ -6,13 +6,20 @@ import Service from "./components/service.ts";
 import Socialmedia from "./components/socialmedia.ts";
 import ArrowDownCircle from "./icons/arrowDownCircle.ts";
 
+import image1 from './../images/fireworks-1.jpg';
+import image2 from './../images/logistics.jpg';
+import image3 from './../images/hand-in-air.jpg';
+import image4 from './../images/security-2.jpg';
+import image5 from './../images/security-1.jpg';
+import image6 from './../images/holding-hands.jpg';
+
 const serviceModels = [
-    new ServiceModel("Site operations", "Management for major outdoor events.", "/fireworks-1.jpg", "Fireworks during a live concert."),
-    new ServiceModel("Logistics", "Artist and crew transport, logistics and runner services.", "/logistics.jpg", "Stage with instrument cases, taken by Andre Moura, see: https://www.pexels.com/sv-se/foto/ljus-gryning-man-skymning-2897776/"),
-    new ServiceModel("Local knowledge", "Local knowledge for international tours.", "/hand-in-air.jpg", "Hands in the air during a live concert."),
-    new ServiceModel("Backstage management", "Dressings rooms and backstage management.", "/security-2.jpg", "Security guard in the rain."),
-    new ServiceModel("Security", "Security operations and management.", "/security-1.jpg", "Security guard."),
-    new ServiceModel("Care", "Artist, friends and family and VIP services", "/holding-hands.jpg", "People holding hands."),
+    new ServiceModel("Site operations", "Management for major outdoor events.", image1, "Fireworks during a live concert."),
+    new ServiceModel("Logistics", "Artist and crew transport, logistics and runner services.", image2, "Stage with instrument cases, taken by Andre Moura, see: https://www.pexels.com/sv-se/foto/ljus-gryning-man-skymning-2897776/"),
+    new ServiceModel("Local knowledge", "Local knowledge for international tours.", image3, "Hands in the air during a live concert."),
+    new ServiceModel("Backstage management", "Dressings rooms and backstage management.", image4, "Security guard in the rain."),
+    new ServiceModel("Security", "Security operations and management.", image5, "Security guard."),
+    new ServiceModel("Care", "Artist, friends and family and VIP services", image6, "People holding hands."),
 ];
 
 function services(): string {

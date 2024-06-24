@@ -6,79 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="ff2ec781-0285-455f-be12-d82c0490b083" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/android-chrome-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/android-chrome-256x256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/android-chrome-36x36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/android-chrome-384x384.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/android-chrome-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/android-chrome-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/android-chrome-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-icon-1024x1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-icon-114x114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-icon-167x167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-icon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1125x2436.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1136x640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1170x2532.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1179x2556.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1242x2208.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1242x2688.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1284x2778.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1290x2796.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1334x750.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1488x2266.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1536x2048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1620x2160.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1640x2160.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1668x2224.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1668x2388.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-1792x828.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-2048x1536.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-2048x2732.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-2160x1620.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-2160x1640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-2208x1242.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-2224x1668.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-2266x1488.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-2388x1668.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-2436x1125.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-2532x1170.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-2556x1179.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-2688x1242.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-2732x2048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-2778x1284.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-2796x1290.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-640x1136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-750x1334.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/apple-touch-startup-image-828x1792.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/favicon-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/index-CDSmh0a6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/index-CJ5-Us5A.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/manifest.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/mstile-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/mstile-310x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/mstile-310x310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/mstile-70x70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/yandex-browser-50x50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/yandex-browser-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fireworks-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/fireworks-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/hand-in-air.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hand-in-air.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/holding-hands.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/holding-hands.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logistics.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logistics.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/security-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/security-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/security-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/security-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/videos/video-2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/videos/video-2.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/components/brand.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/components/brand.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/components/video.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/components/video.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/homeView.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/homeView.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,25 +56,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Phili/WebstormProjects/rnrservices.github.io&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.preview.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Phili\\WebstormProjects\\rnrservices.github.io\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Phili/WebstormProjects/rnrservices.github.io/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.preview.executor": "Run",
+    "ts.external.directory.path": "C:\\Users\\Phili\\WebstormProjects\\rnrservices.github.io\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Phili\WebstormProjects\rnrservices.github.io\src" />
+      <recent name="C:\Users\Phili\WebstormProjects\rnrservices.github.io\src\images" />
       <recent name="C:\Users\Phili\WebstormProjects\rnrservices.github.io" />
     </key>
   </component>
