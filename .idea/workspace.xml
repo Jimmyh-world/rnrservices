@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff2ec781-0285-455f-be12-d82c0490b083" name="Changes" comment="" />
+    <list default="true" id="ff2ec781-0285-455f-be12-d82c0490b083" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/index-Bd6hkPzX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/index-CDSmh0a6.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/index-CTjvYyLe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/index-KGGu1jvj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Bebas_Neue/BebasNeue-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Bebas_Neue/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +110,8 @@
       <workItem from="1719238990246" duration="358000" />
       <workItem from="1719239743872" duration="566000" />
       <workItem from="1719241188257" duration="450000" />
+      <workItem from="1719241731364" duration="92000" />
+      <workItem from="1719245932395" duration="101000" />
     </task>
     <servers />
   </component>
