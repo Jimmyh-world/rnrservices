@@ -1,0 +1,26 @@
+#app {
+    min-height: 100vh;
+}
+
+.page {
+    padding: clamp(1rem, 4.5vw, 2rem);
+    display: flex;
+    flex-direction: column;
+    gap: clamp(1rem, 4.5vw, 2rem);
+}
+
+.page--header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+}
+
+.page--header h2 {
+    font-size: clamp(2rem, 4.5vw, 2rem);
+    text-transform: uppercase;
+}
+
+.page--header p {
+    font-weight: bold;
+}

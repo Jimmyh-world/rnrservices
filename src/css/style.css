@@ -1,0 +1,64 @@
+@import './root.css';
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Source Sans 3", sans-serif;
+    color: var(--black);
+    background-color: var(--white);
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1 {
+    font-family: var(--font-secondary), sans-serif;
+    font-weight: 400;
+    font-size: clamp(3rem, 4.5vw, 4rem);
+    line-height: calc(1em * 1.2);
+}
+
+p {
+    font-size: 1rem;
+    line-height: calc(1em * 1.7);
+}
+
+.cta {
+    background-color: var(--yellow);
+    padding: 1rem 2rem;
+    border-radius: 1000px;
+    border: 2px solid var(--yellow);
+    color: var(--black);
+    font-variant: all-petite-caps;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: .5px;
+    cursor: pointer;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid li {
+    max-width: 600px;
+    min-width: 200px;
+    width: 100%;
+    flex: 1 1 auto;
+}
