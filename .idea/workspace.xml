@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff2ec781-0285-455f-be12-d82c0490b083" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.preview.executor": "Run",
+    "ts.external.directory.path": "C:\\Users\\Phili\\WebstormProjects\\rnrservices.github.io\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -108,7 +109,7 @@
       <workItem from="1719246642879" duration="2000" />
       <workItem from="1719246693330" duration="733000" />
       <workItem from="1719247632117" duration="176000" />
-      <workItem from="1719247868015" duration="1698000" />
+      <workItem from="1719247868015" duration="1901000" />
     </task>
     <servers />
   </component>

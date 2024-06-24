@@ -3,7 +3,7 @@ import {defineConfig} from "vite";
 import * as path from 'path';
 
 export default defineConfig({
-    base: "/rnrservices/",
+    base: "https://jimmyh-world.github.io/rnrservices/",
     resolve: {
         alias: {
             '@': path.resolve(__dirname, 'src'),
