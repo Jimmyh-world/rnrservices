@@ -11,8 +11,18 @@ import MobileMenu from "@/components/MobileMenu.vue";
 
 const languageBoxShow = ref(false);
 
+const menu = ref(null);
+
 function toggleLanguageBox() {
   languageBoxShow.value = languageBoxShow.value === false;
+}
+
+function toggleMenu() {
+  if (!menu.value) {
+    console.error("Menu is not present!");
+    return false;
+  }
+  menu.value.toggle();
 }
 
 </script>
@@ -33,11 +43,11 @@ function toggleLanguageBox() {
       <a id="mailButton" class="button" href="mailto:#" :title="text('Mail', 'Mejla')">
         <Mail />
       </a>
-      <button id="toggleMenuButton" class="button" title="Toggle menu">
+      <button id="toggleMenuButton" @click="toggleMenu" class="button" title="Toggle menu">
         <Menu />
       </button>
     </div>
     <Language :show="languageBoxShow" />
   </header>
-  <MobileMenu />
+  <MobileMenu ref="menu" />
 </template>
