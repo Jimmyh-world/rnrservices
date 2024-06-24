@@ -3,6 +3,9 @@
 import Mail from "@/components/icons/Mail.vue";
 import Phone from "@/components/icons/Phone.vue";
 import Text from "@/assets/js/text.js";
+import {onMounted, ref} from "vue";
+
+const video = ref(null);
 
 const services = [
   {
@@ -30,9 +33,12 @@ const services = [
 <template>
   <main id="main">
     <div id="landing">
-      <figure id="hero">
-        <img src="/hand-in-air.jpg" alt="Hundreds of hands in the air during a concert!" />
-      </figure>
+      <div id="hero">
+        <video loop autoplay="autoplay" muted="muted">
+          <source src="/video-1.mp4" type="video/mp4">
+          Your browser does not support video!
+        </video>
+      </div>
       <section>
         <h1>{{ Text('Unleash the Power of Music', 'Frigör Musikens Kraft') }}</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>

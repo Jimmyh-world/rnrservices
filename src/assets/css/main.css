@@ -116,11 +116,12 @@ h6 {
 
 #landing {
     position: relative;
-    min-height: 98vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 6.25rem;
 }
 
 #landing section {
@@ -155,12 +156,14 @@ h6 {
     opacity: .32;
 }
 
+#hero video,
 #hero img {
-    height: 100%;
+    position: absolute;
+    inset: 0;
     width: 100%;
-    object-position: bottom center;
+    height: 100%;
     object-fit: cover;
-    z-index: -1;
+    object-position: top center;
 }
 
 #testimonials ul {
@@ -317,16 +320,4 @@ h6 {
 #langButton:active,
 #langButton:focus-within {
     stroke: #FFCD00;
-}
-
-@media (max-width: 701px) {
-    #header .navigation {
-        display: none !important;
-    }
-}
-
-@media (min-width: 700px) {
-    #toggleMenuButton {
-        display: none !important;
-    }
 }

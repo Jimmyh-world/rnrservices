@@ -1,10 +1,13 @@
 #header {
-    position: relative;
+    position: absolute;
+    inset: 0;
     width: 100%;
+    height: fit-content;
     background-color: #0B0B2D;
     padding: 1rem;
     display: flex;
     align-items: center;
+    z-index: 1;
 }
 
 .navigation {
@@ -41,4 +44,16 @@
     justify-content: end;
     flex: 1;
     gap: 1rem;
+}
+
+@media (max-width: 701px) {
+    #header .navigation {
+        display: none !important;
+    }
+}
+
+@media (min-width: 700px) {
+    #toggleMenuButton {
+        display: none !important;
+    }
 }
