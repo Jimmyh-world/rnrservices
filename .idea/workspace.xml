@@ -6,17 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ff2ec781-0285-455f-be12-d82c0490b083" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fireworks-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/fireworks-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/hand-in-air.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hand-in-air.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/holding-hands.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/holding-hands.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logistics.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logistics.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/security-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/security-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/security-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/security-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/videos/video-2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/videos/video-2.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/brand.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/components/brand.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/video.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/components/video.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/homeView.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/homeView.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
