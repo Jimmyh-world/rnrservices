@@ -4,6 +4,7 @@ import * as path from 'path';
 
 export default defineConfig({
     base: "https://jimmyh-world.github.io/rnrservices/",
+    publicDir: "https://jimmyh-world.github.io/rnrservices/",
     resolve: {
         alias: {
             '@': path.resolve(__dirname, 'src'),
