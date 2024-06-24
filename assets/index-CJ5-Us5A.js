@@ -65,7 +65,7 @@ var g=Object.defineProperty;var p=(t,e,o)=>e in t?g(t,e,{enumerable:!0,configura
             ${h()}
         </section>
         <div class="scroll-down">
-            <a href="/#services" title="Show our services">What we do</a>
+            <a href="#services" title="Show our services">What we do</a>
             ${$()}
         </div>
     </div>
