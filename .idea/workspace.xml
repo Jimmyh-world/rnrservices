@@ -5,34 +5,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff2ec781-0285-455f-be12-d82c0490b083" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/index-Bd6hkPzX.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/index-CDSmh0a6.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/index-CTjvYyLe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/index-KGGu1jvj.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Bebas_Neue/BebasNeue-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Bebas_Neue/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/SourceSans3-Italic-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/SourceSans3-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-ExtraLight.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-ExtraLightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Source_Sans_3/static/SourceSans3-SemiBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/android-chrome-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/android-chrome-256x256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/android-chrome-36x36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/android-chrome-384x384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/android-chrome-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/android-chrome-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/android-chrome-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-icon-1024x1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-icon-167x167.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1125x2436.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1136x640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1170x2532.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1179x2556.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1242x2208.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1242x2688.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1284x2778.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1290x2796.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1334x750.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1488x2266.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1536x2048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1620x2160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1640x2160.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1668x2224.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1668x2388.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-1792x828.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-2048x1536.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-2048x2732.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-2160x1620.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-2160x1640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-2208x1242.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-2224x1668.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-2266x1488.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-2388x1668.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-2436x1125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-2532x1170.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-2556x1179.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-2688x1242.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-2732x2048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-2778x1284.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-2796x1290.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-640x1136.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-750x1334.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/apple-touch-startup-image-828x1792.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicon-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/index-CDSmh0a6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/index-Co-AHqaL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/manifest.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mstile-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mstile-310x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mstile-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mstile-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/yandex-browser-50x50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/yandex-browser-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fireworks-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hand-in-air.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/holding-hands.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logistics.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/video-2.mp4" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +164,7 @@
       <workItem from="1719241188257" duration="450000" />
       <workItem from="1719241731364" duration="92000" />
       <workItem from="1719245932395" duration="101000" />
+      <workItem from="1719246127522" duration="97000" />
     </task>
     <servers />
   </component>
