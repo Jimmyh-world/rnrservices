@@ -6,6 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="ff2ec781-0285-455f-be12-d82c0490b083" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/index-CJ5-Us5A.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/manifest.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/manifest.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/yandex-browser-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/yandex-browser-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fireworks-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/hand-in-air.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/holding-hands.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logistics.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/security-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/security-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/videos/video-2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fireworks-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/fireworks-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/hand-in-air.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/hand-in-air.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/holding-hands.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/holding-hands.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logistics.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logistics.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/security-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/security-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/security-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/security-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/videos/video-2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/src/videos/video-2.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/components/brand.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/components/brand.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/components/video.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/components/video.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/homeView.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/homeView.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,23 +76,24 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Phili/WebstormProjects/rnrservices",
+    "last_opened_file_path": "C:/Users/Phili/WebstormProjects/rnrservices/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.preview.executor": "Run",
-    "ts.external.directory.path": "C:\\Users\\Phili\\WebstormProjects\\rnrservices.github.io\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\Phili\\WebstormProjects\\rnrservices\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Phili\WebstormProjects\rnrservices\src" />
+      <recent name="C:\Users\Phili\WebstormProjects\rnrservices\src\images" />
       <recent name="C:\Users\Phili\WebstormProjects\rnrservices" />
       <recent name="C:\Users\Phili\WebstormProjects\rnrservices.github.io\src" />
       <recent name="C:\Users\Phili\WebstormProjects\rnrservices.github.io\src\images" />
-      <recent name="C:\Users\Phili\WebstormProjects\rnrservices.github.io" />
     </key>
   </component>
   <component name="RunManager">
@@ -114,6 +140,7 @@
       <workItem from="1719247632117" duration="176000" />
       <workItem from="1719247868015" duration="2474000" />
       <workItem from="1719315305908" duration="750000" />
+      <workItem from="1719316595357" duration="488000" />
     </task>
     <servers />
   </component>
