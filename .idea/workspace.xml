@@ -5,52 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff2ec781-0285-455f-be12-d82c0490b083" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/layouts/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/layouts/home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/modules/brand.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/modules/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/modules/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/modules/logo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/modules/service.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/modules/social-media.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/modules/video.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/root.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/fireworks-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hand-in-air.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/holding-hands.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logistics.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/security-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/security-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/serviceModel.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/videos/video-2.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/appView.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/brand.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/footer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/header.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/logo.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/socialmedia.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/components/video.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/homeView.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/icons/arrowDownCircle.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/icons/chevronDown.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/icons/instagram.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/icons/linkedin.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/icons/mail.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vite-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,12 +28,12 @@
     &quot;assignee&quot;: &quot;b21phiro&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Jimmyh-world/rnrservices.git",
-    "accountId": "c0252633-8485-4377-8a3a-067d7439e7b4"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jimmyh-world/rnrservices.git&quot;,
+    &quot;accountId&quot;: &quot;c0252633-8485-4377-8a3a-067d7439e7b4&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
