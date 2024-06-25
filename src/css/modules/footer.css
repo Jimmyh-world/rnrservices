@@ -1,0 +1,17 @@
+#footer {
+    background-color: var(--black);
+    color: var(--white);
+    padding: clamp(2rem, 4.5vw, 4rem) clamp(1rem, 4.5vw, 2rem);
+}
+
+#footer section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer .logo a {
+    color: var(--white);
+}
