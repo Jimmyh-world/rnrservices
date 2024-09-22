@@ -1,17 +1,17 @@
-export default class App {
+import AppView from "./views/appView.ts";
 
-    private static instance: App;
+function init(rootElemID: string): void {
+    const root = document.querySelector(rootElemID);
 
-    public name: string = "App";
-
-    private constructor() {
+    if (!root) {
+        console.error("Root element not found!");
+        return;
     }
 
-    public static getInstance() {
-        if (!App.instance) {
-            App.instance = new App();
-        }
-        return App.instance;
-    }
+    AppView.mount(root);
+
+    AppView.events();
 
 }
+
+export default { init };

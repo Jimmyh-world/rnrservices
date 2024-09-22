@@ -1,0 +1,31 @@
+#header {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: clamp(1rem, 4.5vw, 2rem);
+
+    font-size: clamp(1rem, 4.5vw, 1.1875rem);
+    font-weight: bold;
+
+    z-index: 99;
+
+}
+
+#header * {
+    color: var(--white);
+}
+
+.header-nav {
+    display: inline-flex;
+    gap: 1em;
+}
+
+.header-link {
+    color: var(--black);
+    text-decoration: none;
+}
