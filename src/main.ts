@@ -1,20 +1,8 @@
 import './style.css';
+import Feed from "./scripts/feed.ts";
 
-import App from "./core/App.ts";
-import Logger from "./core/utilites/Logger.ts";
+window.onload = (): void => {
 
-const logger = new Logger("Main");
+    Feed.init();
 
-window.onload = () => {
-
-    const root = document.getElementById("app");
-
-    if (!root) {
-        logger.error("Root element not found");
-        return;
-    }
-
-    const app = App.getInstance(root);
-    app.run();
-
-};
+}

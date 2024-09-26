@@ -3,13 +3,215 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <title>Rock & Roll Services</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+
+      <!-- Site header -->
+      <header id="header" class="semi-bold">
+        <a class="logo white" href="/" title="Rock & Roll Services">Rock & Roll Services</a>
+        <nav class="nav">
+          <a class="nav-link white" href="/#welcome" title="Welcome">Welcome</a>
+          <a class="nav-link white" href="/#services" title="Services">Services</a>
+          <a class="nav-link white" href="/#feed" title="Feed">Feed</a>
+        </nav>
+      </header>
+
+      <!-- Main content -->
+      <main id="main">
+
+        <section id="welcome">
+
+          <!-- Mascot -->
+          <svg id="mascot" xmlns="http://www.w3.org/2000/svg" width="3000" height="3000" viewBox="0 0 3000 3000">
+            <image class="mascot-part mascot-body" href="/body.png" width="2012" height="2841" />
+            <image class="mascot-part mascot-head" href="/head.png" width="1173" height="1059" />
+          </svg>
+
+          <!-- The big SERVICES text -->
+          <svg id="services-text" width="1216" height="199" viewBox="0 0 1216 199" xmlns="http://www.w3.org/2000/svg">
+            <path d="M63.8356 199C52.034 199 40.3219 197.817 28.6992 195.451C17.0765 193.268 7.51007 190.174 0
+            186.17V142.767C9.6558 147.862 19.6692 151.684 30.0403 154.232C40.5901 156.78 50.6035 158.054 60.0805
+            158.054C68.8423 158.054 75.4583 156.689 79.9286 153.959C84.3988 151.229 86.634 147.316 86.634
+            142.221C86.634 138.399 85.3823 135.123 82.8789 132.394C80.5544 129.482 77.0676 126.843 72.4185
+            124.477C67.7694 122.112 60.5276 118.836 50.6929 114.65C33.3483 107.189 20.7421 98.9086 12.8744
+            89.8093C5.00671 80.7101 1.07287 69.5181 1.07287 56.2332C1.07287 45.3141 4.02325 35.578 9.92402
+            27.0247C16.0036 18.4714 24.4077 11.829 35.1364 7.0974C45.865 2.3658 58.203 0 72.1503 0C83.5942
+            0 93.7864 0.909921 102.727 2.72976C111.668 4.54962 120.25 7.46137 128.476 11.465V53.7764C112.74
+             45.4051 96.9156 41.2195 81.0014 41.2195C72.4185 41.2195 65.5343 42.6754 60.3487 45.5871C55.342
+             48.3169 52.8387 52.3205 52.8387 57.5981C52.8387 62.8756 55.4314 67.1523 60.617 70.428C65.8025
+             73.7037 75.3689 78.1623 89.3161 83.8039C102.012 89.0814 111.846 94.268 118.82 99.3635C125.972
+             104.459 131.158 110.374 134.377 117.107C137.595 123.84 139.204 132.394 139.204 142.767C139.204
+              160.419 132.857 174.25 120.161 184.259C107.644 194.086 88.8691 199 63.8356 199Z"
+            />
+            <path d="M158.07
+            4.09465H291.105V44.7682H205.544V80.5281H268.039V118.472H205.544V154.232H291.105V194.905H158.07V4.09465Z"
+            />
+            <path d="M309.989 4.09465H394.209C416.203 4.09465 433.369 9.73617 445.707 21.0192C458.224 32.3022 464.482
+            48.4989 464.482 69.6091C464.482 83.8038 461.442 95.9058 455.363 105.915C449.283 115.924 440.7 123.385
+            429.614 128.299L462.873 194.905H414.057L384.285 135.123H357.464V194.905H309.989V4.09465ZM385.895
+            94.4499C395.372 94.4499 402.703 92.6301 407.888 88.9904C413.074 85.1687 415.667 78.7083 415.667
+            69.6091C415.667 60.1459 413.074 53.6854 407.888 50.2277C402.882 46.588 395.55 44.7682 385.895
+            44.7682H357.464V94.4499H385.895Z"
+            />
+            <path d="M460.473 4.09465H511.166L558.909 131.029L606.652 4.09465H657.076L582.244 194.905H535.574L460.473
+            4.09465Z"
+            />
+            <path d="M675.906 4.09465H723.38V194.905H675.906V4.09465Z"/>
+            <path d="M844.239 199C823.855 199 805.884 194.996 790.328 186.989C774.95 178.982 763.059 167.517 754.655
+            152.594C746.251 137.489 742.049 119.837 742.049 99.6365C742.049 79.4362 746.251 61.8747 754.655
+            46.952C763.059 31.8473 774.95 20.2913 790.328 12.284C805.884 4.09465 823.855 0 844.239 0C857.65 0
+            869.63 1.36488 880.18 4.09465C890.73 6.82442 900.475 11.1011 909.416 16.9246V62.7846C901.548
+            56.4152 892.607 51.7746 882.594 48.8628C872.759 45.9511 861.405 44.4952 848.531 44.4952C830.113
+            44.4952 815.898 49.4088 805.884 59.236C795.871 68.8811 790.864 82.348 790.864 99.6365C790.864 116.925
+            795.871 130.483 805.884 140.31C816.076 150.137 830.292 155.051 848.531 155.051C861.405 155.051 872.938
+            153.504 883.131 150.41C893.323 147.316 902.8 142.403 911.562 135.669V181.257C894.574 193.086 872.134 199
+            844.239 199Z"
+            />
+            <path d="M930.24
+            4.09465H1063.28V44.7682H977.715V80.5281H1040.21V118.472H977.715V154.232H1063.28V194.905H930.24V4.09465Z"
+            />
+            <path d="M1140.63 199C1128.83 199 1117.12 197.817 1105.49 195.451C1093.87 193.268 1084.31 190.174
+            1076.8 186.17V142.767C1086.45 147.862 1096.46 151.684 1106.84 154.232C1117.39 156.78 1127.4 158.054
+            1136.88 158.054C1145.64 158.054 1152.25 156.689 1156.72 153.959C1161.19 151.229 1163.43 147.316 1163.43
+            142.221C1163.43 138.399 1162.18 135.123 1159.67 132.394C1157.35 129.482 1153.86 126.843 1149.21
+            124.477C1144.56 122.112 1137.32 118.836 1127.49 114.65C1110.14 107.189 1097.54 98.9086 1089.67
+            89.8093C1081.8 80.7101 1077.87 69.5181 1077.87 56.2332C1077.87 45.3141 1080.82 35.578 1086.72
+            27.0247C1092.8 18.4714 1101.2 11.829 1111.93 7.0974C1122.66 2.3658 1135 0 1148.95 0C1160.39 0
+            1170.58 0.909921 1179.52 2.72976C1188.46 4.54962 1197.05 7.46137 1205.27 11.465V53.7764C1189.54
+            45.4051 1173.71 41.2195 1157.8 41.2195C1149.21 41.2195 1142.33 42.6754 1137.14 45.5871C1132.14
+            48.3169 1129.63 52.3205 1129.63 57.5981C1129.63 62.8756 1132.23 67.1523 1137.41 70.428C1142.6
+            73.7037 1152.16 78.1623 1166.11 83.8039C1178.81 89.0814 1188.64 94.268 1195.62 99.3635C1202.77
+            104.459 1207.95 110.374 1211.17 117.107C1214.39 123.84 1216 132.394 1216 142.767C1216 160.419
+            1209.65 174.25 1196.96 184.259C1184.44 194.086 1165.66 199 1140.63 199Z"
+            />
+          </svg>
+
+        </section>
+
+        <section id="services" class="page">
+          <h2 class="semi-bold">Services</h2>
+
+          <ul class="service-list">
+
+            <li class="service-list-item">
+              <section class="service-list-figure service-list-column">
+                <figure class="service-list-column figure">
+                  <img class="image" src="/walking-holding-hands.png"
+                       alt="People walking around a festival site"
+                  />
+                </figure>
+              </section>
+              <section class="service-list-column">
+                <h3 class="service-list-text semi-bold">Site Operations</h3>
+              </section>
+            </li>
+
+            <li class="service-list-item">
+              <section class="service-list-figure service-list-column">
+                <figure class="service-list-column figure">
+                  <img class="image" src="/security-2.png"
+                       alt="Employee overseeing a crowds during a festival"
+                  />
+                </figure>
+              </section>
+              <section class="service-list-column">
+                <h3 class="service-list-text semi-bold">Backstage</h3>
+              </section>
+            </li>
+
+            <li class="service-list-item">
+              <section class="service-list-figure service-list-column">
+                <figure class="service-list-column figure">
+                  <img class="image" src="/stage-fireworks.png"
+                       alt="Fireworks firing during a festival"
+                  />
+                </figure>
+              </section>
+              <section class="service-list-column">
+                <h3 class="service-list-text semi-bold">Logistics</h3>
+              </section>
+            </li>
+
+            <li class="service-list-item">
+              <section class="service-list-figure service-list-column">
+                <figure class="service-list-column figure">
+                  <img class="image" src="/security-1.png"
+                       alt="
+                     Large amount of people in a festival,
+                     with beams of yellow light coming from the scene etc"
+                  />
+                </figure>
+              </section>
+              <section class="service-list-column">
+                <h3 class="service-list-text semi-bold">Security</h3>
+              </section>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section id="feed">
+
+          <div class="feed-header">
+
+            <h2 class="semi-bold">Feed</h2>
+
+            <div class="carousel-controllers">
+
+              <button id="carouselPrevious" class="carousel-button" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 24 24"
+                     class="feather feather-arrow-left">
+                  <line x1="19" y1="12" x2="5" y2="12"/>
+                  <polyline points="12 19 5 12 12 5"/>
+                </svg>
+              </button>
+
+              <button id="carouselNext" class="carousel-button" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="24"
+                     height="24"
+                     viewBox="0 0 24 24"
+                     class="feather feather-arrow-right">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </button>
+
+            </div>
+
+          </div>
+
+          <ul id="instagramFeed" class="carousel">
+
+            <li class="carousel-item">
+              <article class="card">
+                <a class="card-link" href="#" title="Instagram post"></a>
+                <figure class="card-figure figure">
+                  <img class="image" src="/walking-holding-hands.png" alt="Example 1" />
+                </figure>
+                <div class="card-bottom">
+                  <h3 class="card-title">This is a title</h3>
+                  <p class="card-text">The red fox jumped over the frozen river</p>
+                </div>
+              </article>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </main>
+
+      <!-- Site footer -->
+      <footer id="footer">
+
+      </footer>
+
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

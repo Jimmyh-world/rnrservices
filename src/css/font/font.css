@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'PromptRegular';
+    src: local("PromptRegular"), url("./Prompt/Prompt-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'PromptSemiBold';
+    src: local("PromptSemiBold"), url("./Prompt/Prompt-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'PromptBold';
+    src: local("PromptBold"), url("./Prompt/Prompt-Bold.ttf");
+}
+
+html,
+.regular {
+    font-family: 'PromptRegular', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.bold {
+    font-family: 'PromptBold', sans-serif;
+}
+
+.semi-bold {
+    font-family: 'PromptSemiBold', sans-serif;
+}
