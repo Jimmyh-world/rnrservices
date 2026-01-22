@@ -30,4 +30,4 @@ User-agent: Bingbot
 Allow: /
 
 # Sitemap location
-Sitemap: https://rockandrollservices.com/sitemap.xml
+Sitemap: https://rockandrollservices.se/sitemap.xml
